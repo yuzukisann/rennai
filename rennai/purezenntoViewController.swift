@@ -1,15 +1,13 @@
 //
-//  meinnViewController.swift
+//  purezenntoViewController.swift
 //  rennai
 //
-//  Created by 高井佑月 on 2023/04/28.
+//  Created by 高井佑月 on 2023/04/29.
 //
 
 import UIKit
 
-class meinnViewController: UIViewController {
-    
-    @IBOutlet var testProgressView: UIProgressView!
+class purezenntoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,10 +15,6 @@ class meinnViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func clickButton(sender: UIButton) {
-        
-        testProgressView.setProgress(testProgressView.progress + 0.1, animated: true)
-    }
     
     @IBAction func backBtnAction(_ semder: Any) {
         self.dismiss(animated: true, completion: nil)
@@ -40,11 +34,6 @@ class meinnViewController: UIViewController {
     @IBAction func dackBtnAction(_ semder: Any) {
         self.dismiss(animated: true, completion: nil)
     }
-    
-    
-    
-    
-    
     
 
     /*

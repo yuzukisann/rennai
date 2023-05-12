@@ -13,7 +13,8 @@
 		212EF0BA29F8F43E00E604F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212EF0B829F8F43E00E604F6 /* Main.storyboard */; };
 		212EF0BC29F8F44000E604F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212EF0BB29F8F44000E604F6 /* Assets.xcassets */; };
 		212EF0BF29F8F44000E604F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212EF0BD29F8F44000E604F6 /* LaunchScreen.storyboard */; };
-		21A3F7A029FBDA240006FB2A /* meinnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A3F79F29FBDA240006FB2A /* meinnViewController.swift */; };
+		21A3F7A429FCAB2E0006FB2A /* purofi-ruViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A3F7A329FCAB2E0006FB2A /* purofi-ruViewController.swift */; };
+		21A3F7A629FD26100006FB2A /* purezenntoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A3F7A529FD26100006FB2A /* purezenntoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +26,8 @@
 		212EF0BB29F8F44000E604F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		212EF0BE29F8F44000E604F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		212EF0C029F8F44000E604F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		21A3F79F29FBDA240006FB2A /* meinnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meinnViewController.swift; sourceTree = "<group>"; };
+		21A3F7A329FCAB2E0006FB2A /* purofi-ruViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "purofi-ruViewController.swift"; sourceTree = "<group>"; };
+		21A3F7A529FD26100006FB2A /* purezenntoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = purezenntoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,9 @@
 				212EF0B229F8F43E00E604F6 /* AppDelegate.swift */,
 				212EF0B429F8F43E00E604F6 /* SceneDelegate.swift */,
 				212EF0B629F8F43E00E604F6 /* ViewController.swift */,
+				21A3F7A329FCAB2E0006FB2A /* purofi-ruViewController.swift */,
+				21A3F7A529FD26100006FB2A /* purezenntoViewController.swift */,
 				212EF0B829F8F43E00E604F6 /* Main.storyboard */,
-				21A3F79F29FBDA240006FB2A /* meinnViewController.swift */,
 				212EF0BB29F8F44000E604F6 /* Assets.xcassets */,
 				212EF0BD29F8F44000E604F6 /* LaunchScreen.storyboard */,
 				212EF0C029F8F44000E604F6 /* Info.plist */,
@@ -141,9 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21A3F7A629FD26100006FB2A /* purezenntoViewController.swift in Sources */,
 				212EF0B729F8F43E00E604F6 /* ViewController.swift in Sources */,
 				212EF0B329F8F43E00E604F6 /* AppDelegate.swift in Sources */,
-				21A3F7A029FBDA240006FB2A /* meinnViewController.swift in Sources */,
+				21A3F7A429FCAB2E0006FB2A /* purofi-ruViewController.swift in Sources */,
 				212EF0B529F8F43E00E604F6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
